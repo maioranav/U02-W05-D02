@@ -514,7 +514,12 @@ aside > div {
     display: none;
   }
 }
-@media screen and (min-width: 1114px) {
+@media screen and (min-width: 832px) and (max-width: 1108px) {
+  .titleDecor > img {
+    display: none;
+  }
+}
+@media screen and (min-width: 1108px) {
   .titleDecor > img {
     position: absolute;
     left: unset;
