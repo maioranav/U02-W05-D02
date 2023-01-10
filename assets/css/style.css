@@ -449,6 +449,7 @@ section h2 {
   -webkit-box-shadow: 2px 4px 4.5px 0.5px #4b4b4b;
   -moz-box-shadow: 2px 4px 4.5px 0.5px #4b4b4b;
   box-shadow: 1px 2px 3.5px 0.5px #4b4b4b;
+  transition: 0.3s;
 }
 
 .btnSocial:hover {
@@ -485,4 +486,13 @@ section h2 {
 }
 #goTop {
   color: violet;
+}
+
+.fa-tag {
+  float: right;
+  font-size: 50px;
+  position: relative;
+  top: -64%;
+  color: gray;
+  opacity: 50%;
 }
