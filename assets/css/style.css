@@ -436,3 +436,7 @@ section h2 {
   border: 2px solid gray;
   opacity: 0.7;
 }
+
+.btnSocial:hover {
+  opacity: 1;
+}
