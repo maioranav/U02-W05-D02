@@ -488,11 +488,14 @@ section h2 {
   color: violet;
 }
 
-.fa-tag {
-  float: right;
-  font-size: 50px;
+aside > div {
   position: relative;
-  top: -64%;
-  color: gray;
-  opacity: 50%;
+}
+
+.fa-tag {
+  font-size: 70px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0.1;
 }
