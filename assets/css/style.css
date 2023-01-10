@@ -441,7 +441,6 @@ section h2 {
   margin: 10px;
   border-radius: 20%;
   opacity: 0.7;
-  display: none;
   position: relative;
   background: rgba(255, 255, 255, 0.55);
   -webkit-backdrop-filter: blur(15px);
@@ -456,18 +455,15 @@ section h2 {
   opacity: 1;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 700px) {
   .hidexs {
     display: none;
   }
   .showxs {
     display: block;
   }
-  #goTop {
-    display: block;
-  }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
   .hidexs {
     display: block;
   }
