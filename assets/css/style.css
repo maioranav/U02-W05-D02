@@ -418,3 +418,21 @@ section h2 {
   width: 30%;
   left: 40px;
 }
+
+.socialbottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  display: inline-block;
+}
+
+.btnSocial {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  margin: 10px;
+  border-radius: 20%;
+  border: 2px solid gray;
+  opacity: 0.7;
+}
